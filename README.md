@@ -74,3 +74,56 @@ The model was trained and evaluated on a well-structured agricultural dataset.
 > 📌 **Note**: Results are based on the specific dataset used. Accuracy may vary in real-world scenarios where data may be noisy or incomplete.
 
 ---
+
+## 🚀 How to Use
+
+### 🔧 Option 1: Run Locally
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/your-username/AgroEye-ML-Crop-Health.git
+   cd AgroEye-ML-Crop-Health
+   ```
+
+2. **Install the Required Packages**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Run the App**
+   ```bash
+   python app.py
+   ```
+
+4. **Interact with AgroEye**
+   - Enter input values like plant height, chlorophyll, sugars, etc.
+   - View prediction: Healthy 🌱 or Unhealthy 🧪
+   - Interpret results and adjust farming decisions accordingly
+
+---
+
+### 🧪 Option 2: Run on Google Colab
+
+1. Open the `AgroEye.ipynb` notebook in Google Colab  
+2. Install packages in the first cell:
+   ```python
+   !pip install -r requirements.txt
+   ```
+
+3. Run all cells to train the model and launch the Gradio interface
+
+---
+
+## 📂 Folder Structure (Optional)
+
+```
+AgroEye-ML-Crop-Health/
+│
+├── app.py                  # Gradio app
+├── agroeye_model.pkl       # Trained Random Forest model
+├── AgroEye.ipynb           # Colab notebook
+├── requirements.txt        # Dependencies
+├── utils.py                # Helper functions (optional)
+└── README.md               # This file
+```
+
